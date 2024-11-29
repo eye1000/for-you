@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Serenity</title>
+</head>
+<body style="
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #a2d2ff, #d8eaff, #ffafcc);
+    animation: backgroundShift 15s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color: #333;
+">
+    <h1 style="
+        font-size: 6vw;
+        color: #1a3c71;
+        margin: 20px 0;
+        animation: fadeIn 2s ease-in-out;
+    ">Find Your Peace, Nadine</h1>
+    
+    <p style="
+        font-size: 4.5vw;
+        color: #2d6187;
+        margin: 15px 10px;
+        animation: fadeInText 3s ease-in-out;
+        max-width: 85%;
+        line-height: 1.6;
+    ">
+        I'm sending you all my love and the warmest thoughts. Close your eyes, take a deep breath, 
+        and feel the love and calmness surrounding you. You are safe, strong, and capable. 
+        Your dreams are waiting for you, and I believe in you endlessly. Never give up!
+    </p>
+    
+    <p style="
+        font-size: 4.5vw;
+        color: #2d6187;
+        margin: 10px 10px;
+        animation: fadeInText 3s ease-in-out;
+        max-width: 85%;
+        line-height: 1.6;
+    ">
+        Take one step at a time, and know you are never alone. 
+        You are deeply loved and cherished. Everything will be okay.
+    </p>
+    
+    <p style="
+        font-size: 4.5vw;
+        color: #2d6187;
+        margin-top: 30px;
+        animation: fadeIn 3s ease-in-out;
+    ">With all my heart,</p>
+    
+    <p style="
+        font-size: 5vw;
+        color: #1a3c71;
+        margin-bottom: 40px;
+        font-weight: bold;
+        animation: fadeIn 3s ease-in-out;
+    ">YOUR DUMBASS</p>
+
+    <!-- Add soothing animated visual elements -->
+    <div style="
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, #ffffff88, #d8eaff00);
+        border-radius: 50%;
+        animation: float 10s infinite alternate ease-in-out;
+    "></div>
+    <div style="
+        position: absolute;
+        bottom: -120px;
+        right: -120px;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, #ffffff88, #ffd1dc00);
+        border-radius: 50%;
+        animation: floatReverse 12s infinite alternate ease-in-out;
+    "></div>
+
+    <!-- Animations -->
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes fadeInText {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes backgroundShift {
+            0% { background: linear-gradient(120deg, #a2d2ff, #d8eaff, #ffafcc); }
+            100% { background: linear-gradient(120deg, #ffafcc, #d8eaff, #a2d2ff); }
+        }
+        @keyframes float {
+            0% { transform: translateY(0) scale(1); }
+            100% { transform: translateY(20px) scale(1.1); }
+        }
+        @keyframes floatReverse {
+            0% { transform: translateY(0) scale(1); }
+            100% { transform: translateY(-20px) scale(1.1); }
+        }
+    </style>
+</body>
+</html>
